@@ -29,12 +29,12 @@ jobs:
     - name: Setup Vulkan SDK (Ubuntu)
       if: matrix.os == 'ubuntu-latest'
       run: |
-        wget -qO - https://packages.lunarg.com/lunarg-signing-key-pub.asc | sudo apt-key add -
-        sudo wget -qO /etc/apt/sources.list.d/lunarg-vulkan-jammy.list https://packages.lunarg.com/vulkan/lunarg-vulkan-jammy.list
         sudo apt update
-        sudo apt install -y vulkan-sdk
-        # Install additional dependencies
         sudo apt install -y \
+          vulkan-tools \
+          libvulkan-dev \
+          vulkan-validationlayers-dev \
+          spirv-tools \
           build-essential \
           cmake \
           libsdl2-dev \

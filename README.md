@@ -1,6 +1,6 @@
 ### Fiddling with Vk
 
-[![Build Status](https://img.shields.io/badge/Build-Nightly-green.svg)](../../actions/workflows/nightly-build.yml)
+[![Nightly](https://github.com/fistachio-2k/vk-fiddle/actions/workflows/nightly-build.yml/badge.svg)](https://github.com/fistachio-2k/vk-fiddle/actions/workflows/nightly-build.yml)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey.svg)](#)
 [![C++](https://img.shields.io/badge/C%2B%2B-20-blue.svg)](#)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.txt)
