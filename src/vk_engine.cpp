@@ -73,6 +73,10 @@ void VulkanEngine::run()
                     stop_rendering = false;
                 }
             }
+
+            if (e.type == SDL_KEYDOWN) {
+                fmt::println("Wow, you just pressed the {} key!", SDL_GetKeyName(e.key.keysym.sym));
+            }
         }
 
         // do not draw if we are minimized

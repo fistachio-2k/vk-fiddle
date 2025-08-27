@@ -51,3 +51,5 @@ The nightly builds include:
 
 #### Current Progress
 
+**27.8** -
+Opened black SDL window + printing key strokes with `Wow, you just pressed the V key!` message.
